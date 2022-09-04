@@ -1,0 +1,118 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: avenir;
+}
+
+* {
+  font-family: avenir;
+  color: #754433;
+  margin: 0%;
+}
+
+.about {
+  width: 400px;
+  padding: 50px;
+  flex-flow: column wrap;
+  align-items: flex-start;
+}
+
+h1 {
+  font-size: 30px;
+  color: #b45a3c;
+  float: left;
+}
+
+.textbody {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px;
+  padding: 10px;
+  background-color: #F6BA81;
+  margin-bottom: 50px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+  grid-template-rows: masonry; 
+}
+
+.slideshows {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: center;
+    grid-template-rows: masonry; 
+}
+
+.correct { 
+  object-fit: cover; 
+  width: 25%;
+  padding: 10px;
+}
+
+button {
+  background-size: cover;
+  object-fit: cover; 
+  background-color: transparent;
+  border: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+input[type='image'] {
+  width: 200px;
+  background-size: cover;
+  object-fit: cover; 
+}
+
+.icons {
+  height: 25px;
+}
+
+h1 {
+  text-align: center;
+}
+
+@font-face {
+    font-family: avenir;
+    src: url("pictures/Avenir.otf") format("opentype");
+}
+
+.link {
+  text-align: center;
+  color:#754433;;
+}
+
+.socials{
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+a:link { text-decoration: none;}
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: underline; color: #754433;}
+
+
+a:active { text-decoration: none; }
